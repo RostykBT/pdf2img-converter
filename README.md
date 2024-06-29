@@ -14,9 +14,18 @@ Convert your PDF files to PNG images easily with this automated Python script in
 - `pdf2image`
 - File system access for reading PDFs and writing PNGs
 
-## Installation
+## Installation of dependencies
 
 Ensure Python is installed on your system, and then install the `pdf2image` library using pip:
 
 ```bash
 pip install pdf2image
+```
+
+## Usage
+
+-  Place the `pdf_to_png.py` script in the same directory as the PDF files you wish to convert.
+-  Run the script using the command `python pdf_to_png.py`.
+-  The PNG images will be saved in the `output` folder within the same directory.
+
+
